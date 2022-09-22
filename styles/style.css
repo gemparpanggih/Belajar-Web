@@ -193,10 +193,9 @@ body{
 		margin-top: 15px
 	}
 
-	@media (max-width: 600px) {
-			section {
-			-webkit-flex-direction: column;
-			flex-direction: column;
-		}
-
+@media (max-width: 600px) {
+		section {
+		-webkit-flex-direction: column;
+		flex-direction: column;
 	}
+}
